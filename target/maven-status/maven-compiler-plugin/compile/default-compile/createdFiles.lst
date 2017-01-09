@@ -1,0 +1,4 @@
+main\java\Core\PageObject.class
+test\java\SetUp\SetUp.class
+main\java\Pages\LoginPage.class
+test\java\Testcases\LoginPageTest.class

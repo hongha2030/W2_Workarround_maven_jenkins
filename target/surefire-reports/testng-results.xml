@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase: Testing login page by correct email and wrong password]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by invalid email]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by invalid pasword (password < 7 characters)]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Testing login page by blank email and password]]>
+    </line>
+    <line>
+      <![CDATA[Testcase: Login successful when try to login by correct email and password]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="35471" started-at="2017-01-09T11:46:23Z" finished-at="2017-01-09T11:46:59Z">
+    <groups>
+    </groups>
+    <test name="BasicSuite" duration-ms="35471" started-at="2017-01-09T11:46:23Z" finished-at="2017-01-09T11:46:59Z">
+      <class name="test.java.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="testInvalidAccount()" name="testInvalidAccount" duration-ms="15410" started-at="2017-01-09T11:46:40Z" description="Login failed when trying to login by invalid account" finished-at="2017-01-09T11:46:56Z">
+        </test-method>
+        <test-method status="PASS" signature="testInvalidEmail()" name="testInvalidEmail" duration-ms="686" started-at="2017-01-09T11:46:56Z" description="System validates invalid account" finished-at="2017-01-09T11:46:56Z">
+        </test-method>
+        <test-method status="PASS" signature="testInvalidPass()" name="testInvalidPass" duration-ms="682" started-at="2017-01-09T11:46:56Z" description="System validates invalid password" finished-at="2017-01-09T11:46:57Z">
+        </test-method>
+        <test-method status="PASS" signature="testBlankValue()" name="testBlankValue" duration-ms="584" started-at="2017-01-09T11:46:57Z" description="System validates blank value" finished-at="2017-01-09T11:46:58Z">
+        </test-method>
+        <test-method status="PASS" signature="testValidAccount()" name="testValidAccount" duration-ms="877" started-at="2017-01-09T11:46:58Z" description="Login successful when login by valid account" finished-at="2017-01-09T11:46:59Z">
+        </test-method>
+      </class>
+      <class name="test.java.SetUp.SetUp">
+        <test-method status="PASS" signature="startDriver()" name="startDriver" is-config="true" duration-ms="7814" started-at="2017-01-09T11:46:15Z" finished-at="2017-01-09T11:46:23Z">
+        </test-method>
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="17225" started-at="2017-01-09T11:46:23Z" finished-at="2017-01-09T11:46:40Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="549" started-at="2017-01-09T11:46:59Z" finished-at="2017-01-09T11:46:59Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

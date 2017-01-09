@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  BasicSuite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BasicSuite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 09 11:46:23 ICT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35471 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.java.Testcases.LoginPageTest.testBlankValue()'><b>testBlankValue</b><br>Test class: test.java.Testcases.LoginPageTest<br>Test method: System validates blank value<br/>
+<a href="#Output-1006227006" onClick='toggleBox("Output-1006227006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1006227006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1006227006">
+Testcase: Testing login page by blank email and password<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.Testcases.LoginPageTest@48140564</td></tr>
+<tr>
+<td title='test.java.Testcases.LoginPageTest.testInvalidAccount()'><b>testInvalidAccount</b><br>Test class: test.java.Testcases.LoginPageTest<br>Test method: Login failed when trying to login by invalid account<br/>
+<a href="#Output-929383713" onClick='toggleBox("Output-929383713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-929383713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-929383713">
+Testcase: Testing login page by correct email and wrong password<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>test.java.Testcases.LoginPageTest@48140564</td></tr>
+<tr>
+<td title='test.java.Testcases.LoginPageTest.testInvalidEmail()'><b>testInvalidEmail</b><br>Test class: test.java.Testcases.LoginPageTest<br>Test method: System validates invalid account<br/>
+<a href="#Output-2051120548" onClick='toggleBox("Output-2051120548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2051120548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2051120548">
+Testcase: Testing login page by invalid email<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.Testcases.LoginPageTest@48140564</td></tr>
+<tr>
+<td title='test.java.Testcases.LoginPageTest.testInvalidPass()'><b>testInvalidPass</b><br>Test class: test.java.Testcases.LoginPageTest<br>Test method: System validates invalid password<br/>
+<a href="#Output-454305524" onClick='toggleBox("Output-454305524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-454305524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-454305524">
+Testcase: Testing login page by invalid pasword (password < 7 characters)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.Testcases.LoginPageTest@48140564</td></tr>
+<tr>
+<td title='test.java.Testcases.LoginPageTest.testValidAccount()'><b>testValidAccount</b><br>Test class: test.java.Testcases.LoginPageTest<br>Test method: Login successful when login by valid account<br/>
+<a href="#Output-2146338580" onClick='toggleBox("Output-2146338580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2146338580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2146338580">
+Testcase: Login successful when try to login by correct email and password<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.Testcases.LoginPageTest@48140564</td></tr>
+</table><p>
+</body>
+</html>
